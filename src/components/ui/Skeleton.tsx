@@ -1,0 +1,6 @@
+import React from 'react';
+import { cn } from '../../utils/cn';
+
+export function Skeleton({ className }: {className?: string;}) {
+  return <div className={cn('animate-pulse rounded bg-line/70', className)} aria-hidden />;
+}

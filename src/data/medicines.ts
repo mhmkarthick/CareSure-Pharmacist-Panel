@@ -1,0 +1,25 @@
+import type { Medicine } from '../types/order';
+
+export const medicines: Medicine[] = [
+{ id: 'MED-01', name: 'Paracetamol', strength: '650 mg', form: 'Tablet', pack: 'Strip of 15', price: 34, rxOnly: false },
+{ id: 'MED-02', name: 'Amoxicillin', strength: '500 mg', form: 'Capsule', pack: 'Strip of 10', price: 98, rxOnly: true },
+{ id: 'MED-03', name: 'Azithromycin', strength: '500 mg', form: 'Tablet', pack: 'Strip of 3', price: 119, rxOnly: true },
+{ id: 'MED-04', name: 'Metformin SR', strength: '500 mg', form: 'Tablet', pack: 'Strip of 15', price: 52, rxOnly: true },
+{ id: 'MED-05', name: 'Atorvastatin', strength: '10 mg', form: 'Tablet', pack: 'Strip of 15', price: 112, rxOnly: true },
+{ id: 'MED-06', name: 'Amlodipine', strength: '5 mg', form: 'Tablet', pack: 'Strip of 15', price: 46, rxOnly: true },
+{ id: 'MED-07', name: 'Telmisartan', strength: '40 mg', form: 'Tablet', pack: 'Strip of 15', price: 138, rxOnly: true },
+{ id: 'MED-08', name: 'Pantoprazole', strength: '40 mg', form: 'Tablet', pack: 'Strip of 15', price: 145, rxOnly: true },
+{ id: 'MED-09', name: 'Cetirizine', strength: '10 mg', form: 'Tablet', pack: 'Strip of 10', price: 22, rxOnly: false },
+{ id: 'MED-10', name: 'Montelukast + Levocetirizine', strength: '10 mg / 5 mg', form: 'Tablet', pack: 'Strip of 10', price: 186, rxOnly: true },
+{ id: 'MED-11', name: 'Cholecalciferol', strength: '60,000 IU', form: 'Capsule', pack: 'Strip of 4', price: 128, rxOnly: false },
+{ id: 'MED-12', name: 'Ibuprofen', strength: '400 mg', form: 'Tablet', pack: 'Strip of 15', price: 38, rxOnly: false },
+{ id: 'MED-13', name: 'Oral Rehydration Salts', strength: '21.8 g', form: 'Sachet', pack: 'Pack of 5', price: 105, rxOnly: false },
+{ id: 'MED-14', name: 'Salbutamol', strength: '100 mcg', form: 'Inhaler', pack: '200 metered doses', price: 162, rxOnly: true },
+{ id: 'MED-15', name: 'Levothyroxine', strength: '50 mcg', form: 'Tablet', pack: 'Bottle of 100', price: 178, rxOnly: true },
+{ id: 'MED-16', name: 'Glimepiride', strength: '1 mg', form: 'Tablet', pack: 'Strip of 10', price: 64, rxOnly: true },
+{ id: 'MED-17', name: 'Dextromethorphan', strength: '10 mg / 5 ml', form: 'Syrup', pack: 'Bottle of 100 ml', price: 115, rxOnly: false },
+{ id: 'MED-18', name: 'Calcium + Vitamin D3', strength: '500 mg / 250 IU', form: 'Tablet', pack: 'Strip of 15', price: 96, rxOnly: false },
+{ id: 'MED-19', name: 'Multivitamin', strength: 'Daily', form: 'Tablet', pack: 'Strip of 15', price: 145, rxOnly: false },
+{ id: 'MED-20', name: 'Povidone-Iodine', strength: '5% w/w', form: 'Ointment', pack: 'Tube of 20 g', price: 89, rxOnly: false },
+{ id: 'MED-21', name: 'Cefixime', strength: '200 mg', form: 'Tablet', pack: 'Strip of 10', price: 109, rxOnly: true },
+{ id: 'MED-22', name: 'Insulin Glargine', strength: '100 IU/ml', form: 'Cartridge', pack: '3 ml cartridge', price: 685, rxOnly: true }];
